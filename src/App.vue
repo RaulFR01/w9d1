@@ -1,12 +1,14 @@
 <template>
   <NavBar />
   <p>The result of the operation is {{ result }}</p>
+  <FormBonus />
   <FooterSection />
 </template>
 
 <script>
 import FooterSection from "./components/footerSection.vue";
 import NavBar from "./components/navBar.vue";
+import FormBonus from "./components/formBonus.vue";
 export default {
   name: "App",
   data: function () {
@@ -17,6 +19,7 @@ export default {
   components: {
     FooterSection,
     NavBar,
+    FormBonus,
   },
 
   created() {
