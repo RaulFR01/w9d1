@@ -7,6 +7,8 @@
   <hr />
   <ListData />
   <hr />
+  <ChangeElementColor />
+  <hr />
   <FooterSection />
 </template>
 
@@ -16,6 +18,7 @@ import NavBar from "./components/navBar.vue";
 import FormBonus from "./components/formBonus.vue";
 import ConditionTest from "./components/ConditionTest.vue";
 import ListData from "./components/listData.vue";
+import ChangeElementColor from "./components/changeElementColor.vue";
 export default {
   name: "App",
   data: function () {
@@ -29,6 +32,7 @@ export default {
     FormBonus,
     ConditionTest,
     ListData,
+    ChangeElementColor,
   },
 
   created() {
@@ -49,6 +53,9 @@ export default {
 }
 .iteration4 {
   border: solid 2px pink;
+}
+.iteration5 {
+  border: solid 2px black;
 }
 .bonus {
   border: solid 2px blue;
