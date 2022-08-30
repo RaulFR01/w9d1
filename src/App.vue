@@ -5,6 +5,8 @@
   <hr />
   <ConditionTest />
   <hr />
+  <ListData />
+  <hr />
   <FooterSection />
 </template>
 
@@ -13,6 +15,7 @@ import FooterSection from "./components/footerSection.vue";
 import NavBar from "./components/navBar.vue";
 import FormBonus from "./components/formBonus.vue";
 import ConditionTest from "./components/ConditionTest.vue";
+import ListData from "./components/listData.vue";
 export default {
   name: "App",
   data: function () {
@@ -25,6 +28,7 @@ export default {
     NavBar,
     FormBonus,
     ConditionTest,
+    ListData,
   },
 
   created() {
@@ -35,15 +39,18 @@ export default {
 
 <style>
 .iteration1 {
-  border: solid 1px green;
+  border: solid 2px green;
 }
 .iteration2 {
-  border: solid 1px red;
+  border: solid 2px red;
 }
 .iteration3 {
-  border: solid 1px orange;
+  border: solid 2px orange;
+}
+.iteration4 {
+  border: solid 2px pink;
 }
 .bonus {
-  border: solid 1px blue;
+  border: solid 2px blue;
 }
 </style>
