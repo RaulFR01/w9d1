@@ -1,5 +1,15 @@
 # w9d1
 
+## Info para los teachers
+```
+Las iteraciones estan divididas por div de colores.
+
+Iteración 1 --> Verde
+Iteración 2 --> Rojo
+Bonus --> Azul
+
+```
+
 ## Project setup
 ```
 npm install

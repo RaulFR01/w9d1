@@ -1,5 +1,5 @@
 <template>
-  <footer>
+  <footer class="iteration1">
     <h2>This is the footer</h2>
     <ul>
       <li>Home</li>

@@ -1,7 +1,8 @@
 <template>
   <NavBar />
-  <p>The result of the operation is {{ result }}</p>
+  <p class="iteration2">The result of the operation is {{ result }}</p>
   <FormBonus />
+  <hr />
   <FooterSection />
 </template>
 
@@ -28,4 +29,14 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.iteration1 {
+  border: solid 1px green;
+}
+.iteration2 {
+  border: solid 1px red;
+}
+.bonus {
+  border: solid 1px blue;
+}
+</style>
