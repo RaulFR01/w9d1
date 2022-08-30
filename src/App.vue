@@ -3,6 +3,8 @@
   <p class="iteration2">The result of the operation is {{ result }}</p>
   <FormBonus />
   <hr />
+  <ConditionTest />
+  <hr />
   <FooterSection />
 </template>
 
@@ -10,6 +12,7 @@
 import FooterSection from "./components/footerSection.vue";
 import NavBar from "./components/navBar.vue";
 import FormBonus from "./components/formBonus.vue";
+import ConditionTest from "./components/ConditionTest.vue";
 export default {
   name: "App",
   data: function () {
@@ -21,6 +24,7 @@ export default {
     FooterSection,
     NavBar,
     FormBonus,
+    ConditionTest,
   },
 
   created() {
@@ -35,6 +39,9 @@ export default {
 }
 .iteration2 {
   border: solid 1px red;
+}
+.iteration3 {
+  border: solid 1px orange;
 }
 .bonus {
   border: solid 1px blue;
